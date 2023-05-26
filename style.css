@@ -1,0 +1,207 @@
+/* font used */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+
+
+body{
+    background-image: url(https://cdn.glitch.global/52003907-262c-40a3-a05f-4e220ee2c66f/pattern-background-desktop.svg?v=1685029524355);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 204, 228);
+    
+}
+ .card { 
+/*    card creation and positioning */
+    width: 24%;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 4%;
+   
+}
+.ImgContainer{ 
+/*   svg illustration position styling */
+     width: 100%;
+}
+
+.ImgContainer img{ 
+/*   svg styling */
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h3{ 
+/*   header styling */
+     font-family: 'Red Hat Display', sans-serif;  
+    text-align: center;
+    color:  hsl(223, 47%, 23%);
+    font-size: larger;
+    font-size: 700;
+}
+P{ 
+/*   lengthy written text position and styling */
+     padding: 12px 12px;
+    text-align: center;
+    font-size: smaller;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif; 
+}
+.choose{ 
+/*   music box section */
+ background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    height: 90px;
+    margin-top: -2%;
+    margin-left: 40px;
+    display: flex;
+}
+ 
+
+.fa-sharp{
+/*   music icon */
+    padding-left: 14px;
+    padding-top: 30px;
+    height: 40px;
+    width: 40px;
+  
+}
+h5{ 
+/*   Bold words in music box postioning and styling */
+     padding-left: 20px;
+    padding-top: -19px;
+    font-family:  'Red Hat Display', sans-serif;  
+}
+.p p{
+/* faint words in music box  positioning and styling*/
+    padding-left: 17px;
+    padding-top: 1px;
+    
+}
+
+span {
+   /* link in music box  positioning and styling */
+     padding-left: 13%; 
+     padding-top: 40px; 
+     font-family: 'Red Hat Display', sans-serif;  
+     font-size: smaller; 
+}
+    
+ span a{
+    /* link in music box coloring */
+    color: navy;
+}
+span a:hover{
+    color: blue;
+}
+.input{ 
+    /* button positioning */
+    padding-top: 14px;
+    padding-left:60px;
+    
+}
+.input input{ 
+    /* button colouring and styling*/
+  background-color: blue;
+    height: 30px;
+    width: 81%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 10px 4px -4px hsl(232, 39%, 89%);
+   
+}
+
+
+#button { 
+    /* button words styling*/
+    color: aliceblue;
+    font-size: smaller;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+}
+#button:hover {background-color: rgb(12, 12, 244)}
+
+#button:active {
+  background-color: rgb(67, 67, 209);
+  box-shadow: 0 5px #000000;
+  transform: translateY(4px);
+}
+h4 a{ 
+    /* cancel order*/
+     font-family:  'Red Hat Display', sans-serif; 
+    text-align: center;
+    font-size: smaller;
+    color:blue;
+    text-decoration: none;
+    padding-left:9%;
+} 
+h4 a:hover{
+    text-decoration: underline;
+}
+
+ @media  (max-width: 375px ) {
+    .body{
+        padding-top: 40%;
+    }
+    .card{
+        width: 90%;
+    }
+    .imgContainer{
+        width: 90%;
+    }
+    .container{
+        width: 90%;
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .choose{
+        width: 90%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .input{
+        width: 60%;
+    }
+    .input h4{
+        padding-bottom: 18px;
+        margin-right: 18px;
+    }
+    .p{
+        margin-top: 0px;
+    }
+} 
+ 
+@media (max-width: 1024px) {
+    .body{
+        padding-top: 30%;
+    }
+    .card{
+        width: 90%;
+        height: 90%;
+    }
+    .imgContainer{
+        width: 90%;
+    }
+    .container{
+        width: 90%;
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .choose{
+        width: 90%;
+        margin-left: 28px;
+        padding: 0px;
+    }
+    .input{
+        width: 70%;
+    }
+    .input h4{
+        padding-bottom: 18px;
+        margin-right: 10px;
+    }
+    
+} 
